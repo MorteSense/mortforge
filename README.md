@@ -29,3 +29,8 @@ indicates that it can store data related to the logs of the microwave sensors us
 detecting motion. Overall, the Class Diagram demonstrates the flow of information and data
 between the various classes and tables in the system, providing a comprehensive representation
 of the Microwave Motion Security System with SMS Notifications.
+
+In this way, the system can detect motion using the MicrowaveSensor, send notifications
+and SMS messages to the user using the Notification and SMSService classes, respectively,
+and store data related to these events using the Database, NotificationLog, and
+SMSServiceLog tables.
