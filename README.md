@@ -34,3 +34,20 @@ In this way, the system can detect motion using the MicrowaveSensor, send notifi
 and SMS messages to the user using the Notification and SMSService classes, respectively,
 and store data related to these events using the Database, NotificationLog, and
 SMSServiceLog tables.
+
+## Notes
+
+1. Requirements.txt
+2. Redis server
+3. Python Flask
+4. MySQL
+5. AWS
+6. Twilio API
+
+Additional Notes:
+* The backend solution includes a requirements.txt file outlining the necessary dependencies.
+* A Redis server is used for caching and session management.
+* Python Flask is the chosen web framework for the backend.
+MySQL is utilized for data storage.
+* AWS services are employed for various functionalities.
+* The Twilio API is integrated for communication purposes.
